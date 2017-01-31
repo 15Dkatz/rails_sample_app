@@ -19,3 +19,6 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# Ignore Spring files to avoid conflicts between Spring and Git
+spring/
