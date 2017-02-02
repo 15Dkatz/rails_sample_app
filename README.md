@@ -1,7 +1,7 @@
 # Ruby on Rails Tutorial sample application
 
 ###See live at
-[Heroku Link](https://blooming-peak-40710.herokuapp.com/)
+[Heroku Link](https://blooming-peak-40710.herokuapp.com/) 
 
 This is the sample application for
 [*Ruby on Rails Tutorial:
