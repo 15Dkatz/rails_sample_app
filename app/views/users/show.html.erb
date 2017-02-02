@@ -1,0 +1,13 @@
+<!-- Maps the :title key to the @user.name value -->
+<% provide(:title, @user.name)%>
+<h1>
+  <aside class="col-md-4">
+    <section class="user_info">
+      <h1>
+        <!-- Passes @user as the argument for gravatar_for -->
+        <%= gravatar_for @user %>
+        <%= @user.name %>
+      </h1>
+    </section>
+  </aside>
+</h1>
