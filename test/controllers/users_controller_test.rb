@@ -17,4 +17,10 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     assert_redirected_to login_url
   end
 
+  test "should redirect when attempting to edit another user" do
+    log_in_as(@user)
+    get edit_user_path(@other_user.id)
+    assert_redirected_to root_path
+  end
+
 end
